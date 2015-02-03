@@ -1,0 +1,22 @@
+{
+  "name": "fiji",
+  "version": "0.1",
+  "homepage": "https://github.com/davidrleonard/fiji",
+  "authors": [
+    "davidrleonard <dleonard@codeforamerica.org>"
+  ],
+  "description": "A fresh and clean way to get people the water they need.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.1.1",
+    "neat": "~1.7.1"
+  }
+}
