@@ -6,7 +6,7 @@ A fresh take on getting people the water they need.
 ## Dependencies
 
 * Bower (for managing frontend libraries)
-* Bourbon/Neat (SCSS frontend frameowkr)
+* Bourbon/Neat (SCSS frontend framework)
 
 ## Deploying it
 
