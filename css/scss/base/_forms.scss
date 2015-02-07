@@ -1,8 +1,7 @@
 fieldset {
   background-color: lighten($base-border-color, 10%);
   border: $base-border;
-  margin: 0 0 $small-spacing;
-  padding: $base-spacing;
+  padding: $small-spacing;
 }
 
 input,
@@ -15,7 +14,7 @@ select {
 
 label {
   font-weight: 600;
-  margin-bottom: $small-spacing / 2;
+  margin-bottom: 0;
 
   &.required::after {
     content: "*";
@@ -36,7 +35,7 @@ textarea {
   box-sizing: border-box;
   font-family: $base-font-family;
   font-size: $base-font-size;
-  margin-bottom: $base-spacing / 2;
+  margin-bottom: 0;
   padding: $base-spacing / 3;
   transition: border-color;
   width: 100%;
@@ -72,7 +71,7 @@ input[type="file"] {
 }
 
 select {
-  margin-bottom: $base-spacing;
+  margin-bottom: 0;
   max-width: 100%;
   width: auto;
 }

@@ -1,10 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Detroit Water Project</title>
+  <meta charset="UTF-8">
+  <title>Detroit Water Project</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/app.css">
+
+  <!-- Load Typekit fonts (from @davidleonardii kit Detroit Water) -->
+  <script src="//use.typekit.net/hwr8xkm.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
+  <!-- Load jQuery and fittext -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="js/fittext.js"></script>
 </head>
+<!-- <p>Window size: <span id="width_px"></span> pixels or <span id="width_ems"></span> ems</p> -->
 <body>
-	
+  <main>
+    
+    <div class="opener reverse">
+      <div class="container">
+        <div class="content">
+          <!-- Header -->
+          <header>
+            <a href="#" class="logo"><span class="city">Detroit</span> <br/>Water Project</a>
+          </header>
+
+          <!-- Intro -->
+          <h1>Water is a human right.</h1>
+          <h1><span class="callout">Help turn it back on.</span></h1>
+          <p>
+            Detroit Water Project matches <span class="callout underline">8,000+ donors</span> across the nation with Detroit residents without running water in their homes. 
+            <span class="hidden-small"> <!-- Hiding this on mobile -->
+              We have paid <span class="callout underline">$150,000</span> in water bills for <span class="callout underline">900 Detroiters</span> so far.
+            </span>
+          </p>
+
+          <div class="action">
+            <h3 class="hidden-small">I need help paying my bill</h3>
+            <p class="hidden-small">If your water was shut off due to an unpaid bill, we'll try to help you get your account paid off. Your privacy is guaranteed.</p>
+            <p><button>Get help paying your bill</button></p>
+          </div>
+          <div class="action">
+            <h3 class="hidden-small">I want to help pay a bill</h3>
+            <p class="hidden-small">If you want to donate money to help pay off a water bill, we'll match you with someone in need. Give us some basic information to get started.</p>
+            <p><button>Help someone pay a bill</button></p>
+          </div>
+        </div><!-- end .content -->
+      </div><!-- end .container -->
+
+    </div><!-- end .opener -->
+    
+    <div class="container">
+
+      <!-- Donors section -->
+      <div class="content">
+        <h1><span class="callout">More than 300,000</span> Detroit residents face water shutoffs because of past due water bills.</h1> 
+        <h1><span class="callout">You can help</span> get their water turned back on.</h1>
+
+        <fieldset class="donate compact">
+          <div class="details">
+            <p><strong>How it works:</strong></p>
+            <ul>
+              <li>
+                <div class="number"><p>1</p></div>
+                <div class="words"><p>Enter your pledge in the form and we'll find a bill for you to pay.</p></div>
+              </li>
+              <li>
+                <div class="number"><p>2</p></div>
+                <div class="words"><p>We'll walk you through the steps to pay their bill with the Detroit Water &amp; Sewage Department.</p></div>
+              </li>
+              <li>
+                <div class="number"><p>3</p></div>
+                <div class="words"><p>Congrats! You helped someone turn their water on. Tell the world.</p></div>
+              </li>
+            </ul>
+            <!-- <p>We match you directly with a Detroit resident whose water is shut off. Your donation will pay for all or part of their water bill.</p> -->
+          </div>
+          <div class="fields">
+            <form action="#">
+              <ul class="form-fields">
+                <li>
+                  <label for="email">What is your email address?</label>
+                  <input type="text" id="email" name="email" />
+                  <p class="note">Your email address will be kept confidential.</p>
+                </li>
+                <li>
+                  <label for="pledge">How much will you give?</label>
+                  <input type="text" id="pledge" name="pledge" />
+                  <p class="note">The average pledge amount is $74.89.</p>
+                </li>
+                <li>
+                  <label for="pledge">Why are you giving?</label>
+                  <textarea rows="4" id="text_area"></textarea>
+                  <p class="note">This is optional, but we appreciate your thoughts.</p>
+                </li>
+                <li>
+                  <label>
+                    <input type="checkbox" class="checkbox" name="checkboxes" value="check_2" checked /> Sign me up for the mailing list
+                  </label>
+                </li>
+                <li>
+                  <button>Submit</button>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </fieldset>
+
+      </div>
+    
+    </div><!-- end .container -->
+
+    <div class="slab-gray reverse email">
+      <div class="container">
+        <div class="content ">
+          <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, blanditiis.</h3>
+          <form action="#">
+            <input type="email" id="email" name="email" placeholder="email@domain.com" />
+            <button>Sign me up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="reverse">
+    <div class="container">
+      <div class="links first">
+        
+        <div class="half">
+          <ul>
+            <li><p><strong>Take Action</strong></p></li>
+            <li><p><a href="#">Get help paying your bill</a></p></li>
+            <li><p><a href="#">Help someone pay their bill</a></p></li>
+            <li><p><a href="#">Use your skills to help</a></p></li>
+          </ul>
+          <ul>
+            <li><p><strong>Raise your voice</strong></p></li>
+            <li><p><a href="#">Share #DetroitWater on Twitter</a></p></li>
+            <li><p><a href="#">Like Detroit Water on Facebook</a></p></li>
+          </ul>
+        </div><!-- end .half -->
+        <div class="half last">
+          <ul>
+            <li><p><strong>Learn more</strong></p></li>
+            <li><p><a href="#">Contact us</a></p></li>
+            <li><p><a href="#">Read the FAQ</a></p></li>
+            <li><p><a href="#">Meet the team</a></p></li>
+            <li><p><a href="#">Read our privacy policy</a></p></li>
+            <li><p><a href="#">Media and press information</a></p></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="legal compact">
+        <header>
+          <a href="#" class="logo"><span class="city">Detroit</span> <br/>Water Project</a>
+        </header>
+
+        <p>Disclaimer: The Detroit Water Project is merely facilitating matching Detroit residents with willing donors. We hold no liability to either party in the event of error or misuse.</p>
+
+        <p>For legal reasons, you (Donor) understands and agrees that all donations are ultimately used at the discretion of Charity (Detroit Water Project), subject of course, to use restrictions for water use, and, that we will give monies to individuals that fit the profile of the charitable recipient we serve and we cannot guarantee monies will be earmarked for any particular individual as this is unlawful.</p>
+      </div>
+    </div>
+  </footer>
 </body>
+
+<!-- Below scripts are for dev only -->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<!--<script>
+window.onresize = function() {
+document.getElementById("width_px").innerHTML = window.innerWidth;
+document.getElementById("width_ems").innerHTML = window.innerWidth / parseFloat($("body").css("font-size"));
+};
+</script>-->
 </html>

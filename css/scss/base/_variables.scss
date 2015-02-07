@@ -1,25 +1,35 @@
 // Typography
-$base-font-family: $helvetica;
-$heading-font-family: $base-font-family;
+// Calling FuturaPT from Typekit: font-family: "futura-pt",sans-serif;
+// Calling Abril Text from Typekit: font-family: "abril-text",sans-serif;
+$sans: "futura-pt",sans-serif;
+$serif: "abril-text",sans-serif;
+$base-font-family: $sans;
+$heading-font-family: $sans;
 
 // Font Sizes
 $base-font-size: 1em;
 
 // Line height
-$base-line-height: 1.5;
-$heading-line-height: 1.2;
+$base-line-height: 1.6;
+$heading-line-height: 1.1;
 
 // Other Sizes
 $base-border-radius: 3px;
-$base-spacing: $base-line-height * 1em;
-$small-spacing: $base-spacing / 2;
 $base-z-index: 0;
+// $base-spacing: $base-line-height * 1em;
+// $small-spacing: $base-spacing / 2;
+$base-spacing: 30px;
+$small-spacing: $base-spacing / 2;
 
 // Colors
-$blue: #477dca;
+$blue: #3A9AD9;
+$blue-light: #8FD4D9;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$orange: #EB7260;
+$teal: #29ABA4;
+$dark: #354458;
 
 // Font Colors
 $base-background-color: #fff;
